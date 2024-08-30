@@ -2,7 +2,7 @@
 
 // Required parameters:
 // @raycast.schemaVersion 1
-// @raycast.title Celenium Gas Price
+// @raycast.title Celestia Gas Price
 // @raycast.mode inline
 // @raycast.refreshTime 5m
 
