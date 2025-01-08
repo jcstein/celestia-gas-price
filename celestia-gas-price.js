@@ -46,8 +46,10 @@ async function main() {
       fast: formatGasPrice(gasPrice.fast)
     };
     console.log(`Gas Prices: Slow: ${formattedPrices.slow}, Median: ${formattedPrices.median}, Fast: ${formattedPrices.fast}`);
+    process.exit(0);
   } catch (error) {
     console.log(`Error: Failed to fetch gas price: ${error.message}`);
+    process.exit(1);
   }
 }
 
